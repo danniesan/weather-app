@@ -1,0 +1,75 @@
+body {
+  background: #f9f7fe;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding-top: 40px;
+}
+.container {
+  display: block;
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+  box-shadow: 0 20px 40px #eceaf4;
+  border-radius: 15px;
+}
+form {
+  display: inline-block;
+  margin: 20px;
+}
+.search-input {
+  background: #f9f7fe;
+  border-radius: 6px;
+  font-size: 15px;
+  border: none;
+  width: 400px;
+  height: 60px;
+}
+.search-button {
+  background: #885df1;
+  border-radius: 6px;
+  color: #fff;
+  border: none;
+  height: 60px;
+  padding: 10px 20px;
+}
+.current-city {
+  padding: 8px;
+}
+h1 {
+  font-size: 40px;
+}
+.current-detail {
+  color: #a8a6b4;
+  line-height: 1.5;
+}
+strong {
+  color: #ff0000;
+}
+.current-temperature {
+  display: flex;
+  justify-content: end;
+}
+.temp-icon {
+  font-size: 40px;
+  position: relative;
+  top: -95px;
+  right: 40px;
+}
+.temp-value {
+  font-size: 70px;
+  position: relative;
+  bottom: 110px;
+  right: 40px;
+}
+.temp-unit {
+  font-size: 25px;
+  position: relative;
+  top: -100px;
+  right: 40px;
+}
+.footer {
+  font-size: 14px;
+  color: #a8a6b4;
+}
